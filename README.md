@@ -43,14 +43,14 @@ highest churn-risk segment — consistent with the EDA in `notebooks/eda.ipynb`.
 ```
 telco-churn-prediction/
 ├── data/
-│   ├── generate_data.py   # synthetic fallback matching the real dataset's schema
-│   └── telco_churn.csv    # swap in the real Kaggle CSV here if you have it
+│   ├── generate_data.py   
+│   └── telco_churn.csv    
 ├── notebooks/
-│   └── eda.ipynb          # exploratory analysis + plots driving feature choices
+│   └── eda.ipynb          
 ├── src/
-│   └── train.py           # preprocessing pipeline, model comparison, evaluation
-├── artifacts/              # generated: trained model + metrics (git-ignored or committed, your call)
-├── app.py                 # Streamlit demo
+│   └── train.py           
+├── artifacts/              
+├── app.py                
 └── requirements.txt
 ```
 
@@ -59,15 +59,10 @@ telco-churn-prediction/
 ```bash
 pip install -r requirements.txt
 
-# option A (recommended): download the real dataset from Kaggle
-# https://www.kaggle.com/datasets/blastchar/telco-customer-churn
-# rename it to telco_churn.csv and place it in data/
-
-# option B: no internet / no Kaggle account — use the synthetic fallback
 python data/generate_data.py
 
-python src/train.py            # trains, evaluates, saves artifacts/churn_model.joblib
-streamlit run app.py           # interactive demo
+python src/train.py            
+streamlit run app.py           
 ```
 
 ## Approach
