@@ -1,0 +1,42 @@
+[
+  {
+    "feature": "cat__Contract_Month-to-month",
+    "importance": 0.2341298758983612
+  },
+  {
+    "feature": "cat__Contract_Two year",
+    "importance": 0.09452458471059799
+  },
+  {
+    "feature": "cat__Contract_One year",
+    "importance": 0.07018215954303741
+  },
+  {
+    "feature": "cat__TechSupport_No",
+    "importance": 0.02750938944518566
+  },
+  {
+    "feature": "cat__OnlineSecurity_No internet service",
+    "importance": 0.02524363063275814
+  },
+  {
+    "feature": "cat__InternetService_Fiber optic",
+    "importance": 0.021959224715828896
+  },
+  {
+    "feature": "cat__PaymentMethod_Electronic check",
+    "importance": 0.021827470511198044
+  },
+  {
+    "feature": "cat__Dependents_Yes",
+    "importance": 0.020958295091986656
+  },
+  {
+    "feature": "cat__OnlineSecurity_Yes",
+    "importance": 0.02024606429040432
+  },
+  {
+    "feature": "cat__MultipleLines_No phone service",
+    "importance": 0.018125467002391815
+  }
+]
